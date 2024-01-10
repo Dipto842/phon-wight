@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beck</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="conar">
+        <h1 class="h1">welcome to pioneer brank</h1>
+
+        <div class="login_are">
+            <div class="logen">
+
+                <h4>logen</h4>
+                <input type="email" class="emile" placeholder="email" name="" id="">
+
+                <h4>password</h4>
+                <input type="password" class="pass" placeholder="password">
+
+                </input>
+                <br>
+                <button id="login" class="sub_are"> sub</button>
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <div id="tanjekchon_are">
+
+<div class="box_are">
+
+   <div class="box"><ul class="box_ul">
+    <li class="box_li"><h2 class="h_2">Deposit</h2> <h1 id="p">$ 00</h1> </li>
+    <li class="box1_li"><h2 class="h_2">Withdraw</h2> <h1 id="p">$ 00</h1>  </li>
+    <li class="box2_li"> <h2 class="h_2">Balance</h2> <h1 id="p">$ 00</h1> </li>
+
+
+
+   </ul></div>
+</div>
+
+<div class="conten1">
+
+<ul class="ul_2">
+    <li class="li-3">
+<div class="box_shodo1">
+
+<h2 class="deposit">Deposit</h2>
+<input  type="text" class="input" placeholder="$ amount you want to deposit">
+ <button id="de" class="button2"> Deposit </button>
+
+</div>
+
+</li>
+
+<li class="li-4">
+
+<div class="box-shodo2">
+<h2 class="widthdraw">Withdraw</h2>
+<input id="aa" type="text" class="input_2" placeholder="$ amount you want to withdraw" >
+<button id="janamar" class="button3">withdraw</button>
+
+
+</div>
+
+</li>
+
+</ul>
+
+</div>
+
+
+
+
+
+
+
+
+</div>
+
+
+    
+
+
+
+
+
+    <script>
+        const logingBar = document.getElementById("login");
+        logingBar.addEventListener('click',function(){
+            const u = document.getElementById("conar")
+            u.style.display = "none";
+            const takjon =document.getElementById('tanjekchon_are');
+            takjon.style.display ="block"
+        })
+
+
+     
+
+        const logingBa = document.getElementById("janamar");
+
+        logingBa.addEventListener('click',function(){
+            
+          var f = document.getElementById("aa").value;
+
+        
+           
+          var add =parseFloat('aa')
+
+        })
+    </script>
+
+
+</html>

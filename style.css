@@ -1,0 +1,157 @@
+.h1{
+    text-align: center;
+    padding-top: 191px
+}
+.login_are{ 
+    width: 543px;
+    margin: 0 auto;
+
+}
+
+
+.logen{
+    margin-top: 94px;
+    width: 535px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px #796565;
+  border-radius: 17px;
+  padding: 58px;
+}
+.emile{width: 248px;
+    margin: 0 auto;
+    text-align: c;
+    border-radius: 13px;
+    padding: 8px;
+  }
+
+.pass{width: 248px;
+    margin: 0 auto;
+    text-align: c;
+    border-radius: 13px;
+    padding: 8px;}
+
+.sub_are{margin-top: 15px;
+    width: 64px;
+    background: #07fe45;
+    padding: 5px;
+  }
+
+#tanjekchon_are{
+  display: none;
+  
+}
+
+.box_are{}
+
+.box{
+
+width: 835px;
+  margin: 0 auto;
+
+
+}
+.box_ul{
+  list-style: none;
+  display: flex;
+
+}
+
+.box_li{
+  border: 2px solid;
+  margin: 16px;
+  width: 313px;
+  background: #3c3c90;
+  color: wheat;
+  border-radius: 14px;
+}
+.h_2{padding-left: 22px;}
+
+#p{
+  padding-left: 37px;
+  margin-bottom: 14px;
+
+}
+.box1_li{
+  border: 2px solid;
+  margin: 16px;
+  width: 313px;
+  color: wheat;
+  background: #e8964efa;
+  border-radius: 14px;
+}
+.box2_li{
+  border: 2px solid;
+  margin: 16px;
+  width: 313px;
+  background: #dfad18ed;
+  color: wheat;
+  border-radius: 14px;
+}
+.conten1{text-align: center;
+  margin-top: 56px;}
+
+.ul_2{list-style: none;
+  list-style: none;
+  display: flex;
+  margin-left: 530px;}
+
+.li-3{}
+
+.box_shodo1{box-shadow: 5px 5px 5px #000000a1;
+  width: 284px;
+  padding: 34px;
+  padding-bottom: 56px;
+  border-radius: 31px;
+
+}
+
+.deposit{text-align: left;}
+
+.input{margin-right: 165px;
+  width: 249px;
+}
+
+.button2{margin-right: 241px;
+  
+  margin-top: 12px;
+  background: #3ce065;
+
+}
+
+.li-4{margin-left: 87px;}
+
+.box-shodo2{box-shadow: 5px 5px 5px #000000a1;
+  width: 284px;
+  padding: 34px;
+  padding-bottom: 56px;
+  border-radius: 31px;}
+
+.widthdraw{text-align: left;}
+
+
+.input_2{margin-right: 165px;
+  width: 249px;
+}
+
+.button3{margin-right: 241px;
+  
+  margin-top: 12px;
+  background: #3ce065;
+
+}
+
+@media(max-width:720px){
+  .logen{
+    width: 220px;
+    margin: 92px 0 0 0;
+    height: 204px;
+  }
+  .h1 {
+    text-align: center;
+    padding-top: 0;
+    width: 242px;
+    padding-left: 50px;
+    height: 36px;
+  }
+  
+}
