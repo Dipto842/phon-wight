@@ -1,0 +1,44 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+
+.calculeator_body{
+    width: 364px;
+  margin: 0 auto;
+  top: 50%;
+  padding-top: 13%;
+
+}
+
+
+table{background: black;}
+
+tr{}
+
+td{display: block;
+    float: left;
+    margin: 7px;}
+
+input{}
+
+
+input[type= 'button']{
+    width: 29px;
+    background: #100808;
+  color: wheat;
+  box-shadow: 1px 2px 3px white;
+  height: 27px;
+
+}
+input[type='text']{
+    width: 196px;
+    box-shadow: 1px 3px 4px white;
+    height: 37px;
+}
+
+
+
+
+
